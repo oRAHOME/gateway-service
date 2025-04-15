@@ -7,8 +7,11 @@ CORS(app=app)
 
 # Microservice endpoint URLs
 services = {
-    "auth": "http://localhost:5001",
-    "user": "http://localhost:5002",
+    "frontend": "http://localhost:4000", # Frontend 
+    "auth": "http://localhost:5001", # Authentication API
+    "user": "http://localhost:5002", # User API
+    "services": "http://localhost:5003", # Home Assistant API
+    "api": "http://localhost:5004", # Voice API
 }
 
 
